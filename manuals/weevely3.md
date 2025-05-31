@@ -4,11 +4,10 @@ https://github.com/epinna/weevely3
 # Wiki
 https://github.com/epinna/weevely3/wiki
 
-
 ```sh
 # install
 apt install -y python3 python3-pip curl
-
+pip install pysocks
 git clone https://github.com/epinna/weevely3
 cd weevely3
 pip3 install -r requirements.txt --upgrade
