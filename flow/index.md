@@ -5,6 +5,7 @@
 - asn.txt
 - subnets.txt
 - ips.txt
+- live_ips.txt
 - subdomains.txt
 - live_subdomains.txt
 - vhosts.txt

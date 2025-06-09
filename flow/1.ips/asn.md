@@ -2,9 +2,6 @@
 
 # install
 
-get API key - https://cloud.projectdiscovery.io/?ref=api_key
-API KEY = 2cfe4fb0-0632-403f-8e1e-952398ad1d49
-
 go install -v github.com/tomnomnom/anew@latest
 go install github.com/projectdiscovery/asnmap/cmd/asnmap@latest
 
@@ -13,9 +10,7 @@ cd ./go/bin/
 ## BGP
 
 https://bgp.he.net/dns/example.com#_ipinfo
-
 https://bgp.he.net/ip/111.111.111.1
-
 https://bgp.he.net/AS11111#_prefixes
 
 
