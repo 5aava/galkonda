@@ -5,8 +5,10 @@
 - 1.asn.txt
 - 2.subnets.txt
 - 3.all_ips.txt
-- 4.all_subdomains
-- 5.sorted_unique_subdomains
+- 4.all_subdomains.txt
+- 5.sorted_unique_subdomains.txt
+- 6.reolved.txt
+
 - live_ips.txt
 
 - subdomains.txt
