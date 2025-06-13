@@ -23,7 +23,9 @@ apt install nmap nikto ruby-full -y
 # wpscan
 gem install wpscan
 
-# wordlist
+# wordlists
 cd ~;
 git clone https://github.com/danielmiessler/SecLists.git
+
+git clone https://github.com/projectdiscovery/fuzzing-templates
 
