@@ -7,6 +7,7 @@ https://xakep.ru/2025/03/17/htb-certified/
 https://xakep.ru/2025/02/17/htb-cicada/
 https://xakep.ru/2024/12/16/htb-compiled/
 https://xakep.ru/2025/05/26/htb-escapetwo/
+https://xakep.ru/2025/06/16/htb-infiltrator/
 
 
 ===============================================================
@@ -60,7 +61,7 @@ LPE - mobSF chmod 4777 /bin/bash
 
 # PASSED
 
-## SUPPORT
+## HTB sSUPPORT
 
 https://xakep.ru/2022/12/19/htb-support/
 
