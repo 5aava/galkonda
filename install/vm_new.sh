@@ -29,3 +29,27 @@ git clone https://github.com/danielmiessler/SecLists.git
 
 git clone https://github.com/projectdiscovery/fuzzing-templates
 
+
+# go
+
+
+# anew
+go install -v github.com/tomnomnom/anew@latest
+
+# projectdiscovery
+
+# httpx
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+
+# tlsx
+go install github.com/projectdiscovery/tlsx/cmd/tlsx@latest
+
+# naabu
+apt-get install libpcap-dev
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+
+# subfinder
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
+# asnmap
+go install github.com/projectdiscovery/asnmap/cmd/asnmap@latest
