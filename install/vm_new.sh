@@ -29,6 +29,8 @@ git clone https://github.com/danielmiessler/SecLists.git
 
 git clone https://github.com/projectdiscovery/fuzzing-templates
 
+# https://wordlists.assetnote.io/
+
 
 # go
 
@@ -53,3 +55,10 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 # asnmap
 go install github.com/projectdiscovery/asnmap/cmd/asnmap@latest
+
+# ffuf
+git clone https://github.com/ffuf/ffuf; cd ffuf; go get; go build
+
+# searchsploit
+git clone https://gitlab.com/exploit-database/exploitdb.git /opt/exploitdb
+ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit
