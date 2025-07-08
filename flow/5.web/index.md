@@ -1,8 +1,12 @@
 # web vulns
 
-XSS
+XSS 
+CSRF
+
 SQLi
-SSRF
-LFI/RFI
+
+LFI/RFI         +
+SSRF            +
+
 IDOR
 Auth bypass
